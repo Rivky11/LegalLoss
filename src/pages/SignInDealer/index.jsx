@@ -8,7 +8,7 @@ export default function SignInDealerPage() {
       <Helmet>
         <title>Rivky miler&#39;s Application15555</title>
         <meta name="description" content="Web site created using create-react-app" />
-      </Helmet>
+      </Helmet>  
       <div className="flex w-full items-start bg-secondary-primary_white md:flex-col">
         <div className="relative h-[1152px] w-[58%] content-center self-center lg:h-auto md:h-auto md:w-full md:px-5">
           <div className="flex flex-1 items-start md:flex-col">
