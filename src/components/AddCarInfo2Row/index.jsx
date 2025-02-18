@@ -6,7 +6,7 @@ export default function AddCarInfo2Row({ viewoneoneOne, fiftyfive, ...props }) {
     <div
       {...props}
       className={`${props.className} flex md:flex-col justify-center items-center lg:px-5 md:px-5 bg-secondary-primary_white rounded-[20px] container-8xl`}
-    >
+    >    
       <div className="relative h-[914px] w-[28%] content-center lg:h-auto md:h-auto md:w-full">
         <Img
           src="images/img_1_2262370441_1.png"
@@ -25,7 +25,7 @@ export default function AddCarInfo2Row({ viewoneoneOne, fiftyfive, ...props }) {
               as="h1"
               className="!font-heebo text-[45px] font-bold !text-red-a700_03 lg:text-[38px] md:text-[29px] sm:text-[23px]"
             >
-              סיכום מסמך
+            סכום מסמך
             </Heading>
             <Heading
               size="text6xl"
