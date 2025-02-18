@@ -1,0 +1,5 @@
+<svg width="155" height="10" viewBox="0 0 155 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="3" y1="4.5" x2="150" y2="4.5" stroke="black"/>
+<circle cx="5" cy="5" r="5" fill="#666666"/>
+<circle cx="150" cy="5" r="5" fill="#CE0000"/>
+</svg>
