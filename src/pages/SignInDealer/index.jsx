@@ -6,7 +6,7 @@ export default function SignInDealerPage() {
   return (
     <>
       <Helmet>
-        <title>Rivky miler&#39;s Application15</title>
+        <title>Rivky miler&#39;s Application15555</title>
         <meta name="description" content="Web site created using create-react-app" />
       </Helmet>
       <div className="flex w-full items-start bg-secondary-primary_white md:flex-col">
