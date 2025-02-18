@@ -79,8 +79,8 @@ export default function SignInDealerPage() {
                   as="p"
                   className="mr-[18px] text-[16px] font-semibold lg:text-[13px] md:mr-0"
                 >
-                  <span className="text-black-900_03">lbl_lbl7</span>
-                  <span className="text-red-a700_03">lbl_lbl3</span>
+                  <span className="text-black-900_03">שם מלא</span>
+                  <span className="text-red-a700_03">*</span>
                 </Text>
                 <Input
                   size="sm"
@@ -95,8 +95,8 @@ export default function SignInDealerPage() {
                   as="h2"
                   className="mr-[18px] text-[16px] font-semibold lg:text-[13px] md:mr-0"
                 >
-                  <span className="text-black-900_03">lbl_lbl9</span>
-                  <span className="text-red-a700_03">lbl_lbl3</span>
+                  <span className="text-black-900_03">נייד</span>
+                  <span className="text-red-a700_03">*</span>
                 </Heading>
                 <Input
                   size="sm"
