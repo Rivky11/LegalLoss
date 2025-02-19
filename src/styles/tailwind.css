@@ -196,6 +196,7 @@ li:hover {
     padding: unset;
     font-size: unset;
     line-height: unset;
+    text-align: right;
   }
 
   /* Override default focus colors for tailwindcss-forms https://github.com/tailwindlabs/tailwindcss-forms */

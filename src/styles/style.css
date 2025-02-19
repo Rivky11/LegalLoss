@@ -1,0 +1,35 @@
+.signin-bg{
+    height: 100vh;
+}
+.signin-form{
+    margin-top: 300px;
+}
+.enter-btn{
+    /*width: 45%;*/
+    margin: 0 auto;
+}
+.align-center{
+    text-align: center;
+}
+.colors-squares{
+    position: fixed;
+    bottom: 2rem;
+}
+.black-over:hover{
+    background-color: #000;
+}
+@media screen and (max-width: 768px) {
+    .signin-bg{
+        height: auto;
+    }
+    .signin-form{
+        margin-top: 0;
+    }
+    .enter-btn{
+        width: 100% !important;
+    }
+    .colors-squares{
+        position: static;
+        justify-content: center;
+    }
+}
