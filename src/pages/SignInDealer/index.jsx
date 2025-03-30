@@ -51,21 +51,13 @@ export default function SignInDealerPage() {
     console.log("otp ver", response);
 
     const data = await response.json();
-
-    let verifyErrors = {};
     
-    /*if (Object.keys(newErrors).length > 0) {
-      setErrors(newErrors);
-      return;
-    } */
-
     if (data.success) {
       setErrorMessage(""); // מחיקת שגיאות קודמות אם היו
       alert("ההרשמה בוצעה בהצלחה!");
 
     } else {
       
-      //alert("קוד שגוי, נסי שוב");
       setErrorMessage("קוד שגוי, נסו שוב");     
      
     } 
@@ -112,7 +104,6 @@ export default function SignInDealerPage() {
     } else {
       alert("שגיאה בשליחת ה-OTP");
     }
-
     
   };
 
